@@ -1,0 +1,46 @@
+
+.container {
+    margin: 10%;
+}
+.form-group{
+    align-items: center;
+
+    margin-left: 0%;
+}
+.form-control{
+    width: 50%;
+    margin: 10px;
+}
+
+#form {
+    margin-left: 20%;
+    
+}
+input.InputRut, input.InputDni {
+    display: none;
+  }
+  
+
+  input.i-radio[value="rut"]:checked ~ input.InputRut {
+    display: block;
+    -webkit-appearance: none;
+  }
+  /* QUITAR FLECHAS SPINNER */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input.i-radio[value="dni"]:checked ~ input.InputDni {
+    display: block;
+  }
+
+p{
+    color: green;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 18%;
+    display: fixed;
+}
